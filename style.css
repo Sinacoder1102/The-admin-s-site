@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+.hello{
+    color: brown;
+    text-align: center;
+    font-size: 80px;
+    font-family: Poetsen One , sans-serif;
+    animation: turnoffturnon 1.5s infinite alternate;
+}
+
+.welcome{
+    border-radius: 20%;
+    width: 400px;
+    height: auto;
+    margin-left: 480px;
+}
+
+
+
+
+
+
+
+/* animations */
+@keyframes turnoffturnon{
+    from{
+        opacity: 100;
+    }
+
+    to{
+        opacity: 0;
+    }
+}

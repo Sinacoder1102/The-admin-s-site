@@ -1,0 +1,62 @@
+body{
+    background-color: red;
+    overflow: hidden;
+}
+
+.adminask{
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: Poetsen One , sans-serif;
+    padding: 0;
+}
+
+.sagabi{
+    margin-left: 800px;
+    width: 500px;
+    border-radius: 50%;
+    animation: animationforsag 1s infinite alternate;
+    padding: 0;
+}
+
+
+.sure{
+    text-align: center;
+    font-size: 110px;
+    font-family: Poetsen One , sans-serif;
+    margin-top: -300px;
+    padding: 0;
+    margin-right: 500px;
+    animation: admin 2s infinite alternate;
+}
+
+
+
+@keyframes animationforsag{
+    from{
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+}
+
+
+@keyframes admin{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100;
+    }
+}
